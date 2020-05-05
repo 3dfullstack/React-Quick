@@ -6,8 +6,28 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: Purple
+  color: Purple;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.codes {
+  color: green;
+  display: flex;  
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+p {
+    color: blueviolet;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }

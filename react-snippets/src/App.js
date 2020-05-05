@@ -33,12 +33,12 @@ const App = () => {
     <div 
       className="App">
       <header className="App-header">
-        <pre style={{ color:"black" }}>
-          Select & Update text dynamically :  
-        </pre>
-        <pre style={{ color:"green" }}>
-          React useRef()/useState() & onMouseOver Events
-        </pre>
+      <p>
+          <strong>Select & Update text dynamically : </strong>
+      </p>
+      <p className="codes">
+          <code>React useRef()/useState() & onMouseOver Events</code>
+      </p>
         {
           startedEditing ? 
           <form 
