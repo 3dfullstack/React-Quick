@@ -129,7 +129,7 @@ const ReactUpdate = () => {
                   size="large" color="secondary"
                   startIcon={<GitHubIcon />}
                   onClick={(e) => {
-                    window.open('https://github.com/codersguild/being-fullstack/blob/master/react-snippets/src/App.js')
+                    window.open('https://github.com/codersguild/being-fullstack/blob/master/react-snippets/src/ReactUpdate.js')
                   }}
                 >
                 </Button> 😍
