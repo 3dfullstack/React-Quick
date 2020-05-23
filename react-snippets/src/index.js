@@ -7,7 +7,7 @@ import ReactTryOut from './ReactTryOut'
 
 ReactDOM.render(
   <React.StrictMode>
-    <ReactTryOut />
+    <ReactUpdate />
   </React.StrictMode>,
   document.getElementById('root')
 );
