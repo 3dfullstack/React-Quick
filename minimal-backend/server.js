@@ -69,16 +69,18 @@ app.use(function(req, res, next) {
   next(createError(502));
 });
 
-// error handler
-app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+const customErrorHandler = (err, req, res, next) => {
+  console.log(err.stack); 
+  res.status(500).json({
+    url : req.url,
+    headers : req.headers,
+    method : req.method,
+    errors : err,
+    timestamp : Date(Date.now()).toString()
+  })
+  next()
+}
 
-  // render the error page
-  res.status(err.status || 500);
-  res.render('error');
-});
+app.use(customErrorHandler);
 
 module.exports = app;
-
