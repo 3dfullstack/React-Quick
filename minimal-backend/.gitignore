@@ -1,0 +1,4 @@
+/node_modules
+/data/mongodb_data
+/data/pg_data/postgres
+
