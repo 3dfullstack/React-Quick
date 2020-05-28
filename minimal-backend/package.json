@@ -1,7 +1,6 @@
 {
   "name": "minimal-backend-server",
   "version": "1.0.0",
-  "private": true,
   "publishConfig": { 
   	"registry": "https://npm.pkg.github.com/"
   },
