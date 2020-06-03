@@ -1,7 +1,7 @@
 version: '3.7'
 services:
     postgres:
-        container_name: postgres_docker
+        container_name: test_postgres_docker
         image: postgres
         restart: always
         environment:
@@ -14,7 +14,7 @@ services:
             - ./data/pg_data/postgres/:/var/lib/postgresql/data
             - ./data/pg_data/init.sql:/docker-entrypoint-initdb.d/init.sql
     mongodb_container:
-        container_name: mongodb_docker
+        container_name: test_mongodb_docker
         image: mongo:latest
         restart: always
         environment:
