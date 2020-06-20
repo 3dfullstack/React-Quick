@@ -1,8 +1,8 @@
 {
   "name": "minimal-backend-server",
   "version": "1.0.0",
-  "publishConfig": { 
-  	"registry": "https://npm.pkg.github.com/"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "start": "clear && nodemon ./bin/www",
