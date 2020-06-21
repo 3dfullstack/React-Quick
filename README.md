@@ -1,7 +1,12 @@
-# being-fullstack
-MERN, MEAN, PERN &amp; PEAN Stack Snippets with Redis, Sockets and XMPP Snippets. 
+## Being FullStack ❤️
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/83898b48-6971-42a4-95a4-433918cd7021/deploy-status)](https://app.netlify.com/sites/reactsuperexamples/deploys)
+
+MERN, MEAN, PERN &amp; PEAN Stack Snippets with Redis, Sockets and XMPP Snippets. Also contains some ES6 Examples.
 
 ## React Snippets.
+
+Contains Sample React & React-Native Code Samples deployed to ```netlify``` site.
 
 Folder ```react-snippets```. 
 
@@ -28,3 +33,8 @@ Added Socket.io and React Support.
 $ npm install 
 $ npm run client
 ```
+## ES6 Samples.
+
+Contains Sample ```node.js```, ```axios```, ```fetch``` & ```es6``` code snippets.
+
+Folder ```js-samples```. 
