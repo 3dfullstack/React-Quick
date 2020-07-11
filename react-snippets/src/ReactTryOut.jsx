@@ -1,14 +1,11 @@
 // Codersguild : Sumit Lahiri <lahiri.devs@gmail.com>
-import './App.css';
-import axios from 'axios'
 import { hot } from 'react-hot-loader'
-import Button from '@material-ui/core/Button';
-import TextField from '@material-ui/core/TextField';
+import { useCustomHook } from './customHooks'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import 'react-toastify/dist/ReactToastify.min.css';
 import { makeStyles } from '@material-ui/core/styles';
 import { ToastContainer, toast } from 'react-toastify';
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useLayoutEffect } from 'react';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,16 +19,18 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const ReactComponent = () => {
+const ReactTryOut = () => {
 
+  console.log("Custom Hook")
+  useCustomHook(5000)
   return (
     <div className="App">
       <ToastContainer />
       <header className="App-header">
-
+        <pre>Hello World !!</pre>
       </header>
     </div>
   );
 }
 
-export default hot(module)(ReactComponent);
+export default hot(module)(ReactTryOut);
