@@ -4,7 +4,7 @@ import qs from "qs";
 import MongoClient from "mongodb" 
 
 const result = "";
-const url = `mongodb+srv://admin:admin@freetesting.htoiv.gcp.mongodb.net/codedb?retryWrites=true&w=majority`;
+const url = ``;
 const dbName = 'codedb';
 const fetchUrl = "https://reqres.in/api/users"
 
