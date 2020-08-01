@@ -38,3 +38,11 @@ $ npm run client
 Contains Sample ```node.js```, ```axios```, ```fetch``` & ```es6``` code snippets.
 
 Folder ```js-samples```. 
+
+## Some Useful Reads : 
+
+[A good read : Over Engineering SAM](https://medium.com/better-programming/automated-netlify-builds-only-when-you-need-them-723a14ad3dfb)
+
+[GitHub Example (from above)](https://github.com/cpv123/serverless-application-coffee-shops)
+
+[AWS Serverless Architecture](https://aws.amazon.com/serverless/sam/)
