@@ -42,6 +42,7 @@
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
+    "dot-prop": ">=5.1.1"
     "nodemon": "^1.19.3"
   }
 }
