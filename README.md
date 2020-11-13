@@ -4,6 +4,10 @@
 
 MERN, MEAN, PERN &amp; PEAN Stack Snippets with Redis, Sockets and XMPP Snippets. Also contains some ES6 Examples.
 
+## ES6 & JS Snippets 
+
+![ES6 REST SPREAD](https://raw.githubusercontent.com/codersguild/being-fullstack/master/js-samples/es6_objects_2.png)
+
 ## React Snippets.
 
 Contains Sample React & React-Native Code Samples deployed to ```netlify``` site.
