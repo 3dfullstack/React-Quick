@@ -1,51 +1,68 @@
-## ❤️ Being FullStack ❤️
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/efebf3ed-578f-4ee7-aebb-97cd0cb70ea3/deploy-status)](https://app.netlify.com/sites/reactfullstack/deploys)
+## Available Scripts
 
-`MERN`, `MEAN`, &amp; `PERN`  Stack Code Snippets. Also contains some `ES6` Examples. For backend, I tried covering my most used code snippets/examples in `Node.js`, `Socket.io`, `Redis`, `PostgreSQL`, `Prisma`, `Express` & other frameworks. 
+In the project directory, you can run:
 
-## ES6 & JS Example
+### `npm start`
 
-![ES6 REST SPREAD](https://raw.githubusercontent.com/codersguild/being-fullstack/master/Assets/es6_objects_2.png)
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## React Snippets.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Contains Sample React & React-Native Code Samples deployed to ```netlify``` site from ```react-snippets``` folder.
+### `npm test`
 
-Netlify Site : [Full Stack with MERN Stack](https://reactfullstack.netlify.app/)
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Minimal Backend 
+### `npm run build`
 
-A simple REST API demonstration. 
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Folder ```minimal-backend``` with files to spin up a mongo and postgres container. 
-Added `Socket.io` and `Express` support. 
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-```bash
-$ npm install 
-$ npm start
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Minimal Client
+### `npm run eject`
 
-A simple only-cli client demonstration. 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Folder ```minimal-client``` with files to make a HTTP Request with Axios to a REST Endpoint. 
-Added `Socket.io` and `React` Support. 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```bash
-$ npm install 
-$ npm run client
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## ES6 Samples.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Contains Sample ```node.js```, ```axios```, ```fetch``` & ```es6``` code snippets in `JS` folder. 
+## Learn More
 
-## Some Useful Reads : 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- [A good read : Over Engineering SAM](https://medium.com/better-programming/automated-netlify-builds-only-when-you-need-them-723a14ad3dfb)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- [Serverless Code Example](https://github.com/cpv123/serverless-application-coffee-shops)
+### Code Splitting
 
-- [AWS Serverless Architecture](https://aws.amazon.com/serverless/sam/)
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
