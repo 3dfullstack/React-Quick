@@ -8,3 +8,4 @@ Simple examples and `fun` frontend code using `React`.
 
 - [5 Custom React Hooks You Need In Every Project](https://www.youtube.com/watch?v=0c6znExIqRw)
 - [10 React Hooks Explained // Plus Build your own from Scratch](https://www.youtube.com/watch?v=TNhaISOUy6Q)
+- [Create React custom hooks](https://reactjs.org/docs/hooks-custom.html)
